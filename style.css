@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_section{
+    background-color: #DDDDDD;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.header_main{
+    font-size: 40px;
+    letter-spacing: 1.2px;
+    color: #1A1A1A;
+
+}
+
+.header_span{
+    color: #B3B3B3;
+    font-size: 13px;
+}
+
+.blue_dot{
+    color: #0081FF;
+    font-size: 33px;
+}
+
+.header_right{
+    position: relative;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.header_number {
+    left: 30px;
+    position: absolute;
+    top: 0;
+    color: #1C1C1C;
+    font-size: 80px;
+    letter-spacing: 4.75px;
+    z-index: 1;
+}
+
+.about_me {
+    width: 200px;
+    position: absolute;
+    top: 45px;
+    color: #373737;
+    font-size: 30px;
+    letter-spacing: 1.3px;
+    z-index: 10;
+}
+
+.main_images{
+    margin-top: 120px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slide{
+    max-width: 280px;
+    max-height: 350px;
+    border-radius: 10%;
+}
+
+.slider button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50px);
+    font-size: 2rem;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.previous{
+    left: 0;
+}
+.next{
+    right: 12%;
+}
+
+@keyframes fade {
+    from{opacity: .5}
+    to {opacity: 1;}
+}
+.main_icons{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+.main_icon{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+.main_text {
+    margin-top: 50px;
+}
+
+.main_info {
+    font-size: 30px;
+    letter-spacing: 1.06px;
+}
+
+.main_info_span {
+    font-size: 23.29;
+    color: #212121;
+    opacity: 0.6;
+}
+
+.main_footer_span {
+    color: #E93656;
+}
+h3{
+    font-size: 24px;
+}
+
+.main_footer{
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 70%;
+    margin-bottom: 30px;
+}
+
+.main_footer::after {
+    content: "";
+    width: 270px;
+    height: 5px;
+    display: inline-block;
+    background-color: #E93656;
+}
