@@ -151,14 +151,162 @@ h3{
 .main_footer{
     margin-top: 60px;
     display: inline-block;
-    margin-left: 70%;
+    margin-left: 65%;
     margin-bottom: 30px;
 }
 
 .main_footer::after {
     content: "";
-    width: 270px;
+    width: 250px;
     height: 5px;
     display: inline-block;
     background-color: #E93656;
 }
+
+/* second section */
+.second_section{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.second_section_div {
+    margin-top: 100px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.resume_div{
+    text-align: right;
+    max-width: 330px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.resume_span{
+    font-size: 14px;
+    color: #DAAE19;
+}
+
+.resume {
+    margin-top: 40px;
+    font-size: 15px;
+    letter-spacing: 0.45px;
+    color: #555555;
+}
+
+.hire_button{
+    margin-top: 40px;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    background-color:  #E93656;
+}
+.hire {
+    color:#FFFFFF;
+    font-size: 15px;
+}
+
+.hire_button:hover{
+    color: red;
+    background-color: white;
+}
+
+.stats_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+.html::after {
+    content: "";
+    width: 100px;
+    height: 8px;
+    display: inline-block;
+    background-color: #E93656;
+}
+
+.css::after{
+    content: "";
+    width: 80px;
+    height: 8px;
+    display: inline-block;
+    background-color: #E93656;
+}
+
+.js::after{
+    content: "";
+    width: 60px;
+    height: 8px;
+    display: inline-block;
+    background-color: #E93656;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.second_footer {
+    margin-top: 60px;
+    background-color: #131A36;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.contact_info{
+    display: flex;
+    gap: 20px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    border: 3px dashed white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.icon:hover{
+    background-color:#E93656 ;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+
+.second_footer_info{
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+}
+
+.second_footer_span{
+    color: #DFDFDF;
+    font-size: 14px;
+    letter-spacing: 0.42px;
+}
+
