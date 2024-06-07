@@ -9,21 +9,21 @@
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 .header {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
 }
 .header_main{
     font-size: 40px;
     letter-spacing: 1.2px;
     color: #1A1A1A;
-
 }
 
 .header_span{
@@ -38,12 +38,12 @@
 
 .header_right{
     position: relative;
-    margin-right: 300px;
+    margin-right: 20%;
     text-align: center;
 }
 
 .header_number {
-    left: 30px;
+    left: 40px;
     position: absolute;
     top: 0;
     color: #1C1C1C;
