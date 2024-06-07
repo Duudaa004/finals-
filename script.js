@@ -49,3 +49,24 @@ const observer = new IntersectionObserver((entries) => {
 });
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) =>  observer.observe(el));
+
+// second slider
+
+
+function showSecond() {
+    document.getElementById("secondAdviser").style.display = "grid"
+    document.getElementById("adviser").style.display = "none"
+    document.getElementById("thirdAdviser").style.display = "none"
+}
+
+function showFirst() {
+    document.getElementById("adviser").style.display = "grid"
+    document.getElementById("secondAdviser").style.display = "none"
+    document.getElementById("thirdAdviser").style.display = "none"
+}
+
+function showThird() {
+    document.getElementById("thirdAdviser").style.display = "grid"
+    document.getElementById("adviser").style.display = "none"
+    document.getElementById("secondAdviser").style.display = "none"
+}
