@@ -70,3 +70,66 @@ function showThird() {
     document.getElementById("adviser").style.display = "none"
     document.getElementById("secondAdviser").style.display = "none"
 }
+
+function showAll() {
+    document.getElementById("firstHidden").style.opacity = 1
+    document.getElementById("secondHidden").style.opacity = 1
+    document.getElementById("thirdHidden").style.opacity = 1
+    document.getElementById("forthHidden").style.opacity = 1
+    document.getElementById("fifthHidden").style.opacity = 1
+    document.getElementById("sixthHidden").style.opacity = 1
+}
+
+function showWork() {
+    document.getElementById("firstHidden").style.opacity = 1
+    document.getElementById("secondHidden").style.opacity = 0
+    document.getElementById("thirdHidden").style.opacity = 0
+    document.getElementById("forthHidden").style.opacity = 0
+    document.getElementById("fifthHidden").style.opacity = 0
+    document.getElementById("sixthHidden").style.opacity = 0
+}
+
+function showMockup() {
+    document.getElementById("firstHidden").style.opacity = 0
+    document.getElementById("secondHidden").style.opacity = 1
+    document.getElementById("thirdHidden").style.opacity = 0
+    document.getElementById("forthHidden").style.opacity = 0
+    document.getElementById("fifthHidden").style.opacity = 0
+    document.getElementById("sixthHidden").style.opacity = 0
+}
+
+function showPsd() {
+    document.getElementById("firstHidden").style.opacity = 0
+    document.getElementById("secondHidden").style.opacity = 0
+    document.getElementById("thirdHidden").style.opacity = 1
+    document.getElementById("forthHidden").style.opacity = 0
+    document.getElementById("fifthHidden").style.opacity = 0
+    document.getElementById("sixthHidden").style.opacity = 0
+}
+
+function showLogo() {
+    document.getElementById("firstHidden").style.opacity = 0
+    document.getElementById("secondHidden").style.opacity = 0
+    document.getElementById("thirdHidden").style.opacity = 0
+    document.getElementById("forthHidden").style.opacity = 1
+    document.getElementById("fifthHidden").style.opacity = 0
+    document.getElementById("sixthHidden").style.opacity = 0
+}
+
+function showPresentation() {
+    document.getElementById("firstHidden").style.opacity = 0
+    document.getElementById("secondHidden").style.opacity = 0
+    document.getElementById("thirdHidden").style.opacity = 0
+    document.getElementById("forthHidden").style.opacity = 0
+    document.getElementById("fifthHidden").style.opacity = 1
+    document.getElementById("sixthHidden").style.opacity = 0
+}
+
+function showIcons() {
+    document.getElementById("firstHidden").style.opacity = 0
+    document.getElementById("secondHidden").style.opacity = 0
+    document.getElementById("thirdHidden").style.opacity = 0
+    document.getElementById("forthHidden").style.opacity = 0
+    document.getElementById("fifthHidden").style.opacity = 0
+    document.getElementById("sixthHidden").style.opacity = 1
+}

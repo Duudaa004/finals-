@@ -453,3 +453,91 @@ h2{
     display: flex;
     flex-direction: column;
 }
+
+/* forth section */
+
+.forth_section{
+    margin-top: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project {
+    text-align: center;
+    font-size: 70px;
+}
+
+.projects {
+    max-width: 1000px;
+    margin-top: 50px;
+    padding-left: 10%;
+    height: 500px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.list{
+    background-color: #15263E;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+li:hover {
+color: #E93656;
+}
+
+.project_box{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.odd {
+    background-color: #555555;
+}
+.even{
+    background-color: #848484;
+}
+
+.odd,
+.even {
+    padding-top: 100px;
+    height: 300px;
+}
+
+.heart_logo {
+    width: 50px;
+    border: 2px solid #E93656;
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.hidden_project {
+    gap: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+
+}
+
+
+
+
