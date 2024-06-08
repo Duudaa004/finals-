@@ -169,7 +169,11 @@ h3{
 }
 
 /* second section */
-.second_section{
+.second_section,
+.third_section,
+.forth_section,
+.fifth_section,
+.sixth_section{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -215,6 +219,7 @@ h2{
     text-align: center;
     padding-top: 5px;
     background-color:  #E93656;
+    transition: 0.6s;
 }
 .hire {
     color:#FFFFFF;
@@ -293,12 +298,12 @@ h2{
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    transition: 0.6s;
 
 }
 
 .icon:hover{
     background-color:#E93656 ;
-    transition-delay: 0.3s;
     cursor: pointer;
 }
 
@@ -461,13 +466,6 @@ h2{
 
 /* forth section */
 
-.forth_section{
-    margin-top: 100px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .project {
     text-align: center;
     font-size: 70px;
@@ -555,13 +553,6 @@ color: #E93656;
 
 /* fifth section */
 
-.fifth_section{
-    margin-top: 200px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 .new_articles {
     text-align: center;
@@ -617,3 +608,40 @@ color: #E93656;
     height: 400px;
 }
 
+/* sixth section */
+
+.team{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.client_logos{
+    position: relative;
+}
+
+.clients {
+    width: 200px;
+    height: 200px;
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition:  0.6s;
+}
+.clients:hover{
+    opacity: 1;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.client_logo{
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
