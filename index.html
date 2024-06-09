@@ -414,19 +414,57 @@
             </div>
         </div>
     </section>
-    <section class="last_section">
-        <h1 class="last_contact">CONTACT US</h1>
-        <span class="last_span">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        <div class="input_div">
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="Email Address">
-            <input type="text" placeholder="Your Website">
-            <textarea name="message" placeholder="Message" ></textarea>
-        </div>
-        <div class="last_button">
-            <span>SEND MESSAGE</span>
+    <section class="contact_form">
+        <div class="contact_form_container">
+            <h2 class="contact_form_title">CONTACT US</h2>
+            <span class="contact_form_after_title">
+                Lorem ipsum dolor 
+                sit amet, consectetur adipiscing elit
+            </span>
+            <div class="contact_form_bars_container">
+                <form id="contact_form_content">
+                    <div class="contact_form_bars">
+                        <div class="input_container">
+                            <input type="text" name="name" id="your_name" class="form_inputs">
+                            <label for="your_name">Your Name<span class="asterisk_yellow">*</span></label>
+                        </div>
+                        <div class="input_container">
+                            <input type="email" name="email" id="email" class="form_inputs">
+                            <label for="email">Email Address<span class="asterisk_yellow">*</span></label>
+                        </div>
+                        <div class="input_container">
+                            <input type="text" name="website" id="website" class="form_inputs">
+                            <label for="website">Your Website<span class="asterisk_yellow">*</span></label>
+                        </div>
+                    </div>
+                    <div class="message_container">
+                            <textarea name="message" id="message" class="form_inputs"></textarea>
+                            <label for="message">Message<span class="asterisk_yellow">*</span></label>
+                        </div>
+                    <button class="send_message">SEND MESSAGE</button>
+                </form>
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="upper_footer">
+            <div>
+                <a href="index.html"><h1 class="header_main" id="bottom">Roca<span class="red_dot">.</span></h1></a>
+            </div>
+            <p class="footer_article">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+            </p>
+            <div class="footer_contacts">
+                <div><a href="https://www.facebook.com/nugo.jelia.1/photos_by" target="_blank"><img src="./images/footer icon1.png" alt="facebook icon"></a></div>
+                <div><a href="https://www.instagram.com/__duudaaa___/" target="_blank"><img src="./images/footer icon2.png" alt="insta icon"></a></div>
+                <div><a href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act" target="_blank"><img src="./images/footer icon3.png" alt="gmail icon"></a></div>
+                <div><a href="https://github.com/Duudaa004" target="_blank"><img src="./images/footer icon4.png" alt="github icon"></a></div>
+            </div>
+        </div>
+        <div class="lower_footer">
+            <span class="low_footer_span">© All right reserved 2019. <a href="index.html" class="footer_tag">Rosa </a> - Creative Agency Website PSD Template.</span>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
