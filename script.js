@@ -220,15 +220,5 @@ contactForm.addEventListener("submit", (e) => {
         statusField.textContent = error.message
     }
 
-    const formContent = new FormData(contactForm)
-    const info = Object.fromEntries(formContent)
-
-    fetch("https://borjomi.loremipsum.ge/api/send-message", {
-        method:"POST",
-        body: JSON.stringify(info)
-    })
-    .then(res => res.json())
-    .then(data => console.log(data))
-    .then(error => console.log(error))
 
 })

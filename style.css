@@ -4,6 +4,80 @@
     box-sizing: border-box;
 }
 
+/* fonts */
+
+.header_main,
+h1,
+h2{ 
+    font-family: "Poppins-ExtraBold"
+
+}
+
+.main_info,
+.my_name,
+.hire_button,
+.stat,
+.second_footer_info,
+.card_span,
+.behind,
+.names,
+.project,
+li,
+.upper_span,
+.news_event,
+.articles,
+.article_name,
+.send_message{
+    font-family: "GlacialIndifference-Bold";
+}
+
+.main_info_span{
+    font-family: "GlacialIndifference-Regular";
+}
+
+.main_footer_span{
+    font-family: "Montserrat-Bold";
+}
+
+.resume,
+.article{
+    font-family: "Muli-Regular";
+}
+
+.resume_span,
+.second_footer_span,
+.upper_span,
+.article_span,
+.low_footer_span
+{
+    font-family: "Muli";
+}
+
+.behind_span{
+    font-family: "Muli-Light";
+}
+
+.advices,
+.client_span,
+.contact_form_after_title{
+    font-family: "Roboto-Light";
+}
+
+.workplace,
+.footer_article
+{
+    font-family: "Roboto-Regular";
+}
+.vertically,
+.contact_form_title{
+    font-family: "Jaapokki-Regular";
+}
+
+.client{
+    font-family: "Poppins-SemiBold";
+}
+
+
 a {
     text-decoration:none;
     color: black;
@@ -65,7 +139,7 @@ a {
 .about_me {
     width: 200px;
     position: absolute;
-    top: 45px;
+    top: 60px;
     color: #373737;
     font-size: 30px;
     letter-spacing: 1.3px;
@@ -242,7 +316,7 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    width: 100px;
+    width: 120px;
     margin-top: 50px;
 }
 
