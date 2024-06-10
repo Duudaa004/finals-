@@ -1044,6 +1044,19 @@ footer{
     .main_footer {
         margin-left: 30%;
 }
+.header {
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.header_right{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+}
 .next {
     margin-right: 72px;
 }
@@ -1077,10 +1090,9 @@ footer{
     flex-direction: row;
 }
 .third_footer{
-    width: 420px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
-    padding: 3%;
 }
 ul{
     display: grid;
@@ -1092,11 +1104,6 @@ ul{
     margin-right: auto;
 }
 
-.contact_form {
-    max-width: 420px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .contact_form_after_title{
     text-align: center;
     width: 200px;
@@ -1119,7 +1126,36 @@ ul{
     margin-left: auto;
     margin-right: auto;
 }
-footer {
-    max-width: 420px;
+
+.recommendations {
+    max-width: 350px;
+}
+
+.second_section,
+.third_section {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lower_footer {
+    padding: 10%;
+}
+
+.projects {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.odd,
+.even {
+    padding-top: 10%;
+    height: 200px;
+}
+.hidden_project {
+    gap: 0;
+}
+.contact_form{
+    width: 100%;
+    
 }
 }
