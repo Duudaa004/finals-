@@ -656,8 +656,8 @@ color: #E93656;
 .article_div {
     margin-top: 100px;
     width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -905,4 +905,124 @@ footer{
 
 .footer_tag{
     color: #FFFFFF;
+}
+
+
+
+/* responsive */
+
+@media (max-width: 1024px) {
+
+.main_section,
+.second_section,
+.third_section,
+.forth_section,
+.sixth_section
+{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.article_div{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: grid;
+    gap: 20px;
+}
+
+#move_image{
+    order: -1;
+    flex-direction: row-reverse;
+}
+#moving_text{
+    order: 1;
+}
+.team{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+}
+
+
+@media (max-width: 769px) {
+    .main_section {
+        width: 110%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main_images{
+        display: flex;
+        flex-direction: column;
+    }
+    .next{
+        margin-right: 160px;
+    }
+    .header{
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+    .main_footer {
+        margin-left: 50%;
+    }
+    .article_div{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+
+    }
+    .second_footer{
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .second_section_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards_div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .third_footer {
+        max-width: 600px;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .fifth_section {
+        margin-top: 500px;
+    }
+    .contact_form{
+        max-width: 700px;
+    }
+    .contact_form_bars{
+        gap: 15px;
+        max-width: 500px;
+    }
+    footer {
+        max-width: 700px;
+    }
 }
